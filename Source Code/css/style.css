@@ -1,0 +1,136 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+     
+      font-weight: lighter;
+}
+
+#header {
+      width: 100%;
+      height: 100vh;
+      background: url(../images/a.png) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+
+
+#nav {
+       font-family:poppins;
+       font-size: 100px;
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+#nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+#nav.black ul {
+      background: #000;
+}
+
+#nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+#nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+/*
+plugin haru*/
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  transition: all 0.2s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+#footer{
+        background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+      align-items: center;
+}
+#shortcutfooter{
+      display: block;
+}
+#about{
+      margin-left: 50%;
+      display: block;
+      float: left;
+}
+ #copyright{
+  /*    box-sizing: border-box;*/
+      display: block;
+      margin-top: 150px;
+}
